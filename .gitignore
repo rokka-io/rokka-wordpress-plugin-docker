@@ -1,0 +1,24 @@
+composer.phar
+.DS_Store
+.idea
+.env
+.env.*.php
+.env.php
+*.pyc
+venv
+
+version.txt
+# for netbeans
+nbproject
+/node_modules/
+npm-debug.log
+
+/web/wp-dev-config.php
+/web/wp-stage-config.php
+/web/wp-live-config.php
+/web/content/uploads/
+/web/content/debug.log
+
+/web/content/themes/rokka/node_modules/
+/web/content/themes/rokka/assets/css/
+/web/content/themes/rokka/assets/js/*.min.js
