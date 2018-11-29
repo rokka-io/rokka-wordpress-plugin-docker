@@ -10,7 +10,7 @@ echo "====================="
 echo "Running setup..."
 
 $HERE/copy-config-files.sh
-$HERE/restore_dumps.sh
+$HERE/restore-dumps.sh
 
 echo "Setup. Done!"
 echo ""
