@@ -6,6 +6,7 @@ composer.phar
 .env.php
 *.pyc
 venv
+/.data/
 
 version.txt
 # for netbeans
