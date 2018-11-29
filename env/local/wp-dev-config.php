@@ -4,8 +4,8 @@
 // DB config
 // ===================================================
 
-define( 'DB_NAME', 'rokka' );
-define( 'DB_USER', 'rokka' );
+define( 'DB_NAME', 'rokkavm' );
+define( 'DB_USER', 'rokkavm' );
 define( 'DB_PASSWORD', '123' );
 define( 'DB_HOST', 'mysql' );
 
