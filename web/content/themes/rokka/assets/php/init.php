@@ -39,10 +39,16 @@ function theme_setup() {
 
 	add_theme_support( 'title-tag' );
 
+	add_filter( 'max_srcset_image_width', 'rokka_max_srcset_image_width', 10, 0 );
+
 	rokka_define_image_sizes();
 }
 
 add_action( 'after_setup_theme', 'theme_setup' );
+
+function rokka_max_srcset_image_width() {
+    return 3000;
+}
 
 /**
  * Define image sizes to test rokka stacks
@@ -70,5 +76,10 @@ function rokka_define_image_sizes() {
 	add_image_size( 'colmd4-image', 1500, 9999 );
 
 	// Image size teaser 750w 375h cropped
-	add_image_size( 'teaser', 750, 375, true );
+	add_image_size( 'teaser', 750, 375, false );
+
+	add_image_size( 'ratio-2-to-1-2000w', 2000, 1000, true );
+	add_image_size( 'ratio-2-to-1-1000w', 1000, 500, true );
+	add_image_size( 'ratio-2-to-1-750w', 750, 375, true );
+	add_image_size( 'ratio-2-to-1-500w', 500, 250, true );
 }
