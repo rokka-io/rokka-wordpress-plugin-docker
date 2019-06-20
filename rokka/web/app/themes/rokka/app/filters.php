@@ -89,3 +89,12 @@ add_filter('comments_template', function ($comments_template) {
 
     return $comments_template;
 }, 100);
+
+add_filter(
+    'max_srcset_image_width',
+    function () {
+        return 3000;
+    },
+    10,
+    0
+);
