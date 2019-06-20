@@ -1,6 +1,3 @@
-[submodule "web/cms"]
-	path = web/cms
-	url = https://github.com/WordPress/WordPress.git
-[submodule "web/content/plugins/rokka-integration"]
-	path = web/content/plugins/rokka-integration
+[submodule "rokka/web/app/plugins/rokka-wordpress-plugin"]
+	path = rokka/web/app/plugins/rokka-wordpress-plugin
 	url = https://github.com/rokka-io/rokka-wordpress-plugin.git

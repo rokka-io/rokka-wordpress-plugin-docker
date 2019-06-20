@@ -16,17 +16,11 @@ rokka-wordpress-plugin dev environment based on docker
     127.0.0.1 rokka.test
     ```
 
-1. `cp env/local/.env_wp-docker.dist .env`
+1. `scripts/copy-config-files.sh`
 1. Initialize docker containers:
 
     ```
     docker-compose up -d
-    ```
-
-1. Run setup script to setup environment
-
-    ```
-    scripts/setup.sh
     ```
 
 # Known problems

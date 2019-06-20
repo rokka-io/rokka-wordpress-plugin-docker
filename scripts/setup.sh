@@ -10,7 +10,7 @@ echo "====================="
 echo "Running setup..."
 
 $HERE/copy-config-files.sh
-$HERE/restore-dumps.sh
+$HERE/generate-salts.sh
 
 echo "Setup. Done!"
 echo ""
