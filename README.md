@@ -1,6 +1,6 @@
 # rokka-wordpress-plugin Docker Dev Environment
 
-rokka-wordpress-plugin dev environment based on docker
+rokka-wordpress-plugin dev environment based on docker for [rokka.io](https://rokka.io)
 
 ## Requirements
 
